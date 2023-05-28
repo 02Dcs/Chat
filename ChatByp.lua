@@ -13,9 +13,6 @@ local Bypasses = {
     }
 
 print('Symbols!');
-if pcall() or not Bypasses then 
-    print'skill issues!'
-end
 
 local Alphabet,old = loadstring(game:HttpGet("https://raw.githubusercontent.com/02Dcs/Chat/main/Symbols"))()
 old = hookmetamethod(game,"__namecall",function(self,...)
