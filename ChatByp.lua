@@ -1,5 +1,22 @@
+repeat game:Loaded() until task.wait(0.1);
+local Bypasses = {
+        [" "] = "\226\129\165\226\129\165\226\129\165\226\129\165\226\129\165\226\129\165 \226\129\165\226\129\165\226" ..
+            "\129\165\226\129\165\226\129\165\226\129\165",
 
-print("hi") local Alphabet,old = loadstring(game:HttpGet("https://raw.githubusercontent.com/02Dcs/Chat/main/Symbols"))()
+           ["a"] = "а",
+           ["s"] = "ѕ",
+           ["o"] = "о",
+           ["o"] = "о",
+           ["c"] = "с",
+           ["p"] = "р",
+    }
+
+print('Symbols!');
+if pcall() or not Bypasses then 
+    print'skill issues!'
+end
+
+local Alphabet,old = loadstring(game:HttpGet("https://raw.githubusercontent.com/02Dcs/Chat/main/Symbols"))()
 old = hookmetamethod(game,"__namecall",function(self,...)
     if getnamecallmethod() == "FireServer" and tostring(self) == "SayMessageRequest" then
         local Arguments = {...}
@@ -18,19 +35,6 @@ old = hookmetamethod(game,"__namecall",function(self,...)
     end
     return old(self, ...)
 end)
-
-    local Bypasses = {
-        [" "] = "\226\129\165\226\129\165\226\129\165\226\129\165\226\129\165\226\129\165 \226\129\165\226\129\165\226" ..
-            "\129\165\226\129\165\226\129\165\226\129\165",
-
-           ["a"] = "а",
-           ["s"] = "ѕ",
-           ["o"] = "о",
-           ["o"] = "о",
-           ["c"] = "с",
-           ["p"] = "р",
-    }
-
 
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
     local Remote = ReplicatedStorage:FindFirstChild("SayMessageRequest", true)
