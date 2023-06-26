@@ -71,7 +71,7 @@ end)
 
 local visual = {
 vl = 0; -- Skill issues check
-rl = 0; -- real tags
+mx = nil; -- msg count
 };visual.__index = visual
 
 
@@ -92,9 +92,6 @@ local function noti(x, b, p)
    end)
 end
 
-
-local sym = ' 𐌜⬜⬜⬜⬜̌   𐌜⬜ 𐌜▰◻ ˜ˆ 𐌔˜𐌖 𐌖￭𐌒▰𐌖𐌖  ॓॓॓॓॓॓॓॓॓॓॓॓॓॓॓॓॓॓॓॓॓॓॓॓॓॓॓॓॓॓॓॓॓॓॓॓॓॓॓॓॓॓॓॓॓▰𐌖𐌖  𐌜  𐌖￭𐌒▰𐌖𐌖   ̌  ̌𐌖 𐌜⬜𐌖 𐌜¹¹¹¹¡ 𐌜⬜𐌜⬜ 𐌖¹¹¹¹¡  𐌜⬜⬜⬜॓॓॓॓i 𐌜⬜⬜ ť"'
-
 local p = game.Players.LocalPlayer
 local x = os.time() - (p.AccountAge*86400); local d = os.date("!*t", x)
 
@@ -103,17 +100,14 @@ p.Chatted:Connect(function(b)
        if m[1]:match('#') then
          visual.vl = visual.vl + 1
          noti('02 Chat Byp', 'Visual Tag: ', visual.vl);
-
-          if b:match('#') then
-            count = string.len(sym);
-            if string.len(b) > count then -- check its less!
-               visual.rl = visual.rl + 1
-               noti('02 Chat Byp', 'Symbol issues: ', visual.rl);
-            end
-       end
     end
+    if string.len(b) > 51 then
+        visual.mx = string.len(b);
+      return noti('02 Chat Byp', 'Max Limits Too High: ', visual.mx);
+     end
 end)     
 
 if (d.year <= 2023) then
 return nil; else p:Kick'Make sure, u make an alt account in the year 2023'
 end
+
