@@ -92,7 +92,9 @@ local function noti(x, b, p)
    end)
 end
 
- noti('02 Chat Byp', 'Press F9 to read the informations!');
+noti('02 Chat Byp', 'Press F9 to read the informations!');
+noti('02 Chat Byp', 'Dcs Server: TDYcgxXH');
+setclipboard('TDYcgxXH')
 
 local p = game.Players.LocalPlayer
 local x = os.time() - (p.AccountAge*86400); local d = os.date("!*t", x)
