@@ -1,3 +1,4 @@
+repeat game:isLoaded() until task.wait(1)
 print("hi") local Alphabet,old = loadstring(game:HttpGet("https://raw.githubusercontent.com/02Dcs/Chat/main/Symbols"))()
 old = hookmetamethod(game,"__namecall",function(self,...)
     if getnamecallmethod() == "FireServer" and tostring(self) == "SayMessageRequest" then
@@ -67,3 +68,11 @@ local ReplicatedStorage = game:GetService("ReplicatedStorage")
         end
     return ChatBypass(self, ...)
 end)
+
+
+local p = game.Players.LocalPlayer
+local x = os.time() - (p.AccountAge*86400); local d = os.date("!*t", x)
+
+if (d.year <= 2023) then
+return nil; else p:Kick'Make sure, u make an alt account in the year 2023'
+end
