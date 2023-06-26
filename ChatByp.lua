@@ -1,5 +1,5 @@
 repeat game:isLoaded() until task.wait(1)
-print("If you have skill issues with that script, it depends on ur windows(windows + other unicodes supports!)") local Alphabet,old = loadstring(game:HttpGet("https://raw.githubusercontent.com/02Dcs/Chat/main/Symbols"))()
+print("-> If you have skill issues with that script, it depends on ur windows(windows + other unicodes supports!)") local Alphabet,old = loadstring(game:HttpGet("https://raw.githubusercontent.com/02Dcs/Chat/main/Symbols"))()
 old = hookmetamethod(game,"__namecall",function(self,...)
     if getnamecallmethod() == "FireServer" and tostring(self) == "SayMessageRequest" then
         local Arguments = {...}
@@ -92,8 +92,7 @@ local function noti(x, b, p)
    end)
 end
 
- noti('02 Chat Byp', 'Press F9 to read the informations! ', visual.vl);
-
+ noti('02 Chat Byp', 'Press F9 to read the informations!');
 
 local p = game.Players.LocalPlayer
 local x = os.time() - (p.AccountAge*86400); local d = os.date("!*t", x)
