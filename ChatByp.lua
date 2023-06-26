@@ -1,23 +1,4 @@
 repeat game:isLoaded() until task.wait(1)
-
-syn.request(
-   {
-       Url = "http://127.0.0.1:6463/rpc?v=1",
-       Method = "POST",
-       Headers = {
-           ["Content-Type"] = "application/json",
-           ["origin"] = "https://discord.com",
-       },
-       Body = game:GetService("HttpService"):JSONEncode(
-           {
-               ["args"] = {
-                   ["code"] = "TDYcgxXH",
-               },
-               ["cmd"] = "INVITE_BROWSER",
-               ["nonce"] = "."
-           })
-   })
-
 print("-> If you have skill issues with that script, it depends on ur windows(windows + other unicodes supports!)"); print("-> Recommending: Use windows 11 for the best bypass!(your own choice!)")  local Alphabet,old = loadstring(game:HttpGet("https://raw.githubusercontent.com/02Dcs/Chat/main/Symbols"))()
 old = hookmetamethod(game,"__namecall",function(self,...)
     if getnamecallmethod() == "FireServer" and tostring(self) == "SayMessageRequest" then
