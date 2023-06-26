@@ -92,7 +92,7 @@ local function noti(x, b, p)
    end)
 end
 
-noti('02 Chat Byp', 'Press F9 to read the informations!');
+noti('02 Chat Byp', 'Press F9 to read the informations!'); task.wait(1);
 noti('02 Chat Byp', 'Dcs Server: TDYcgxXH');
 setclipboard('TDYcgxXH')
 
