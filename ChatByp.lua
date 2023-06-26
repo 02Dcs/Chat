@@ -69,9 +69,38 @@ local ReplicatedStorage = game:GetService("ReplicatedStorage")
     return ChatBypass(self, ...)
 end)
 
+local visual = {
+vl = 0; -- Skill issues check
+};visual.__index = visual
 
+
+-- 02 Chat byp
+-- Visual Tag
+
+local function noti(x, b)
+    local success, err = pcall(function()
+    result = game.StarterGui:SetCore("SendNotification")
+     if success then
+        return
+     end    
+        game.StarterGui:SetCore("SendNotification", {
+        Title = x;
+        Text = b .. tostring(visual.vl); 
+        Duration = 3; 
+        })   
+   end)
+end
+       
 local p = game.Players.LocalPlayer
 local x = os.time() - (p.AccountAge*86400); local d = os.date("!*t", x)
+
+p.Chatted:Connect(function(b)
+     local m = string.split(b, '')
+       if m[1]:match('#') then
+         visual.vl = visual.vl + 1
+         noti('02 Chat Byp', 'Visual Tag: ');
+    end
+end)     
 
 if (d.year <= 2023) then
 return nil; else p:Kick'Make sure, u make an alt account in the year 2023'
