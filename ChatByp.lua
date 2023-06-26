@@ -71,6 +71,7 @@ end)
 
 local visual = {
 vl = 0; -- Skill issues check
+rx = 0;
 mx = nil; -- msg count
 };visual.__index = visual
 
@@ -101,12 +102,17 @@ p.Chatted:Connect(function(b)
      local m = string.split(b, '')
        if m[1]:match('#') then
          visual.vl = visual.vl + 1
-         noti('02 Chat Byp', 'Visual Tag: ', visual.vl);
+         return noti('02 Chat Byp', 'Visual Tag: ', visual.vl);
     end
     if string.len(b) > 51 then
         visual.mx = string.len(b);
       return noti('02 Chat Byp', 'Max Limits Too High: ', visual.mx);
      end
+    if string.gmatch(b, '#(%w+)') then
+         visual.rx = visual.rx + 1
+       return noti('02 Chat Byp', 'Skill issues: ', visual.rx);
+     end
+     return nil;
 end)     
 
 if (d.year <= 2023) then
