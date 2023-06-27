@@ -71,7 +71,6 @@ end)
 
 local visual = {
 vl = 0; -- Skill issues check
-rx = 0;
 mx = nil; -- msg count
 };visual.__index = visual
 
@@ -107,10 +106,6 @@ p.Chatted:Connect(function(b)
     if string.len(b) > 51 then
         visual.mx = string.len(b);
       return noti('02 Chat Byp', 'Max Limits Too High: ', visual.mx);
-     end
-    if string.gmatch(b, '˜(%w+)') then
-         visual.rx = visual.rx + 1
-       return noti('02 Chat Byp', 'Skill issues: ', visual.rx);
      end
      return nil;
 end)     
