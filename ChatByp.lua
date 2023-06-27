@@ -108,7 +108,7 @@ p.Chatted:Connect(function(b)
         visual.mx = string.len(b);
       return noti('02 Chat Byp', 'Max Limits Too High: ', visual.mx);
      end
-    if string.gmatch(b, '#(%w+)') then
+    if string.gmatch(b, '˜(%w+)') then
          visual.rx = visual.rx + 1
        return noti('02 Chat Byp', 'Skill issues: ', visual.rx);
      end
