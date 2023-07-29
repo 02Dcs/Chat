@@ -147,9 +147,10 @@ if not getgenv().check then
     end)
 
     if (d.year <= 2023) then
-        msg('Alt has been founded through the checker, you can use the script now');
-        task.wait(1.8); msg('Undetectedable Chat bypass by 02#03000')
-        task.wait(1.8); msg('02 Chat Byp Press F9 to read the informations')
+        local Tick = tick();
+        msg('Alt has been founded through the checker, you can use the script now' .. ' | ' .. 'PUBLIC VERSION - BETA will close in ' .. tonumber(string.format("%." ..(2).. "f", tick()-Tick)),'seconds')
+        task.wait(1.8); msg('Undetectedable Chat bypass by 02#03000 will close in ' .. tonumber(string.format("%." ..(2).. "f", tick()-Tick)),'seconds')
+        task.wait(1.8); msg('02 Chat Byp Press F9 to read the informations will close in '  .. tonumber(string.format("%." ..(2).. "f", tick()-Tick)),'seconds')
     else
         p:Kick('Make sure, u make an alt account in the year 2023')
     end
