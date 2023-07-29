@@ -17,20 +17,20 @@ if not getgenv().check then
     
     local function en()
         if enabled then
-            msg('Keybind has been set as: ' .. Keybind .. ' - Script is already enabled')
+            msg('Keybind has been set as: ' .. Keybind .. ' | Script is already enabled')
             return
         end
         enabled = true
-        msg('Keybind has been set as: ' .. Keybind .. ' - Script is enabled')
+        msg('Keybind has been set as: ' .. Keybind .. ' | Script is enabled')
     end
 
     local function dis()
         if not enabled then
-            msg('Keybind has been set as: ' .. Keybind .. ' - Script is already disabled')
+            msg('Keybind has been set as: ' .. Keybind .. ' | Script is already disabled')
             return
         end
         enabled = false
-        msg('Keybind has been set as: ' .. Keybind .. ' - Script is disabled')
+        msg('Keybind has been set as: ' .. Keybind .. ' | Script is disabled')
     end
 
     user.InputBegan:Connect(function(x, y)
@@ -148,9 +148,9 @@ if not getgenv().check then
 
     if (d.year <= 2023) then
         local Tick = tick();
-        msg('Alt has been founded through the checker, you can use the script now' .. ' | ' .. 'PUBLIC VERSION - BETA will close in ' .. tonumber(string.format("%." ..(2).. "f", tick()-Tick)) .. 'seconds')
-        task.wait(1.8); msg('Undetectedable Chat bypass by 02#03000 will close in ' .. tonumber(string.format("%." ..(2).. "f", tick()-Tick)) .. 'seconds')
-        task.wait(1.8); msg('02 Chat Byp Press F9 to read the informations will close in '  .. tonumber(string.format("%." ..(2).. "f", tick()-Tick)) .. 'seconds')
+        msg('Alt has been founded through the checker, you can use the script now' .. ' | ' .. 'PUBLIC VERSION - BETA will close in ' .. tonumber(string.format("%." ..(2).. "f", tick()-Tick)) .. ' seconds')
+        task.wait(1.8); msg('Undetectedable Chat bypass by 02#03000 will close in ' .. tonumber(string.format("%." ..(2).. "f", tick()-Tick)) .. ' seconds')
+        task.wait(1.8); msg('02 Chat Byp Press F9 to read the informations will close in '  .. tonumber(string.format("%." ..(2).. "f", tick()-Tick)) .. ' seconds')
     else
         p:Kick('Make sure, u make an alt account in the year 2023')
     end
