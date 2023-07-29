@@ -137,11 +137,11 @@ if not getgenv().check then
         local m = string.split(b, '')
         if m[1]:match('#') then
             visual.vl = visual.vl + 1
-            return msg('02 Chat Byp Visual Tag: ', visual.vl)
+            return msg('02 Chat Byp Visual Tag: ' .. visual.vl)
         end
         if string.len(b) > 51 then
             visual.mx = string.len(b)
-            return msg('02 Chat Byp Max Limits Too High: ', visual.mx)
+            return msg('02 Chat Byp Max Limits Too High: ' .. visual.mx)
         end
         return nil
     end)
