@@ -70,7 +70,7 @@ if not getgenv().check then
         return old(self, ...)
     end)
 
-    local Bypasses = {
+ local Bypasses = {
         [" "] = "\226\129\165\226\129\165\226\129\165\226\129\165\226\129\165\226\129\165 \226\129\165\226\129\165\226" ..
                 "\129\165\226\129\165\226\129\165\226\129\165",
 
@@ -81,6 +81,16 @@ if not getgenv().check then
         ["o"] = "о",
         ["c"] = "с",
         ["p"] = "р",
+        ["i"] = "і",
+        ["n"] = "n",
+        ["t"] = "t",
+        ["x"] = "x",
+        ["y"] = "y",
+        ["j"] = "ϳ",
+        ["k"] = "k",
+        ["v"] = "ν",
+        ["b"] = "b",
+        
     }
 
     local ReplicatedStorage = game:GetService("ReplicatedStorage")
