@@ -13,7 +13,7 @@
 - [+] **The bot is not online all the time**
 - [+] **It's not paid, and it will remain free**
 
-- # How to use it?
+# How to use it?
 - [+] **2) DM the bot and type `$cmd` for information**
 
 <a href="https://discord.gg/ejFqne6tZb" target="_blank">
