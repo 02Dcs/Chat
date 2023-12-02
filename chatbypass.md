@@ -13,6 +13,8 @@
 - [+] **The bot is `not online` all the time**
 - [+] **It's not paid, and it will remain `free`**
 - [+] **The bot can get `patched` every minute, so don't be surprised if it suddenly `stops working`**
+- [+] **The `devs are working` really hard on it to create the best `chat bypass`**
+
 
 # How to use it?
 - [+] **2) DM the bot and type `$cmd` for information**
