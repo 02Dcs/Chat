@@ -14,6 +14,6 @@
 - [+] **Last edited on: <span style="font-size: 4px; color: green;">December 2, 2023</span>**
 
 <a href="https://discord.gg/ejFqne6tZb" target="_blank">
-  <img align="center" src="https://imgs.search.brave.com/E0-QpUdGk4NVBInKvcgKZb6yAkvjK_u4FiBzy0XYl8Y/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9jZG4u/bG9nb2pveS5jb20v/d3AtY29udGVudC91/cGxvYWRzLzIwMjEw/NDIyMDk1MDM3L2Rp/c2NvcmQtbWFzY290/LnBuZw" alt="Discord Link" width="40" height="20">
+  <img align="center" src="https://imgs.search.brave.com/E0-QpUdGk4NVBInKvcgKZb6yAkvjK_u4FiBzy0XYl8Y/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9jZG4u/bG9nb2pveS5jb20v/d3AtY29udGVudC91/cGxvYWRzLzIwMjEw/NDIyMDk1MDM3L2Rp/c2NvcmQtbWFzY290/LnBuZw" alt="Discord Link" width="20" height="20">
   Join&nbsp;in!
 </a>
