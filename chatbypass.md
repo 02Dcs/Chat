@@ -5,6 +5,7 @@
 - [+] **Daily bot updates and improvements**
 
 ![dasdsadsadsadsadsa](https://github.com/02Dcs/Chat/assets/95237577/d070ffe4-dbca-4975-ab13-8a1900bf9614)
+![dasdsadsadsadsadsa](https://github.com/02Dcs/Chat/assets/95237577/bd496c07-20f6-4848-bb97-12f12eb06bf6)
 
 # Information About The Bot Service 🛡
 - [+] **The Configs are most undetectable**
