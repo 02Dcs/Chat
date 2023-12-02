@@ -12,7 +12,7 @@
 
 <br>
 
-- [+] **Bypasses `all words`** 
+- [+] **Bypasses `all words`** <!
 - [+] **Apply your own chat `bypass configuration`**
 - [+] **Daily bot `updates and improvements`**
 
