@@ -23,8 +23,8 @@
 - [+] **4) Replace the normal letters with your `custom letters`**
 - [+] **5) Return to the bot's direct messages and type `$config [sendurjsonfile]`**
 
-1. ![sdasdadsadasasddas](https://github.com/02Dcs/Chat/assets/95237577/bdf878d3-8475-42e2-908a-12a58757be4f)
-2. ![dasdsasdasaddsaasd](https://github.com/02Dcs/Chat/assets/95237577/dcaeb8e8-f7b9-400f-a3ff-06abb065bd2e)
+![sdasdadsadasasddas](https://github.com/02Dcs/Chat/assets/95237577/bdf878d3-8475-42e2-908a-12a58757be4f)<br>
+![dasdsasdasaddsaasd](https://github.com/02Dcs/Chat/assets/95237577/dcaeb8e8-f7b9-400f-a3ff-06abb065bd2e)
 
 <a href="https://discord.gg/ejFqne6tZb" target="_blank">
   <img align="center" src="https://imgs.search.brave.com/E0-QpUdGk4NVBInKvcgKZb6yAkvjK_u4FiBzy0XYl8Y/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9jZG4u/bG9nb2pveS5jb20v/d3AtY29udGVudC91/cGxvYWRzLzIwMjEw/NDIyMDk1MDM3L2Rp/c2NvcmQtbWFzY290/LnBuZw" alt="Discord Link" width="25" height="25">
