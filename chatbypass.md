@@ -18,7 +18,7 @@
 
 # How to create your own config 👷‍♀️
 - [+] **1) Send a direct message to the bot and type `$letters`**
-- [+] **2) Click on the `green market emoj`**
+- [+] **2) Click on the `green market emoji`**
 - [+] **3) Open `Visual Studio` or `any editor that supports JSON` for editing.**
 - [+] **4) Replace the normal letters with your `custom letters`**
 - [+] **5) Return to the bot's direct messages and type `$config [sendurjsonfile]`**
