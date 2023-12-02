@@ -16,6 +16,9 @@
 # How to use it?
 - [+] **2) DM the bot and type `$cmd` for information**
 
+# The bot won't respond back 🤯
+- [+] **You might have been `banned` for using the bot or breaking our `rules`**
+
 # How to create your own config 👷‍♀️
 - [+] **1) Send a direct message to the bot and type `$letters`**
 - [+] **2) Click on the `green market emoji`**
