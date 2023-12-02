@@ -11,7 +11,7 @@
 - [+] **The Configs are most undetectable**
 - [+] **Easy to use and no cooldown**
 - [+] **The bot is not online all the time**
-- [+] **It's not paid, and it will remain free**
+- [+] **It's not paid, and it will remain `free`**
 
 # How to use it?
 - [+] **2) DM the bot and type `$cmd` for information**
