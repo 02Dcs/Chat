@@ -36,7 +36,7 @@
 <br>
 <hr style="border: 0; height: 1px; background-image: linear-gradient(to right, rgba(0, 0, 0, 0), #fff, rgba(0, 0, 0, 0));">
 
-# Upcoming Themes In The Future
+# Upcoming Themes In The Future 🚀
 - [+] **The `bot` will turn into a `Roblox script`**
 - [+] **The script will only work in `Electron`**
 
