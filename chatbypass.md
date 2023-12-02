@@ -1,5 +1,5 @@
 <h1>Chat Bypass - Roblox! 🔥</h1>
-<div style="width: 100%; height: 3px; background-color: white; margin-bottom: 10px;"></div>
+<div style="width: 100%; height: 1px; background-color: white; margin-bottom: 55px;"></div>
 
 <a href="https://discord.gg/ejFqne6tZb" target="_blank">
   <img align="center" src="https://imgs.search.brave.com/E0-QpUdGk4NVBInKvcgKZb6yAkvjK_u4FiBzy0XYl8Y/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9jZG4u/bG9nb2pveS5jb20v/d3AtY29udGVudC91/cGxvYWRzLzIwMjEw/NDIyMDk1MDM3L2Rp/c2NvcmQtbWFzY290/LnBuZw" alt="Discord Link" width="25" height="25">
