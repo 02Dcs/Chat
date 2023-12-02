@@ -1,8 +1,3 @@
-Best roblox chat bypass - 2023/2024
+# Chat Bypass - Roblox!
 
-[+] Apply your own chat bypass configuration
-[+] Automatic HWID changer upon ban.
-[+] Bypasses all words.
-
-Join today for daily bot updates and improvements!
-https://discord.gg/ejFqne6tZb 
+![dasdsadsadsadsadsa](https://github.com/02Dcs/Chat/assets/95237577/d070ffe4-dbca-4975-ab13-8a1900bf9614)
