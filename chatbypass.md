@@ -21,6 +21,9 @@
 ![dasdsadsadsadsadsa](https://github.com/02Dcs/Chat/assets/95237577/d070ffe4-dbca-4975-ab13-8a1900bf9614)
 ![dasdsadsadsadsadsa](https://github.com/02Dcs/Chat/assets/95237577/bd496c07-20f6-4848-bb97-12f12eb06bf6)
 
+<br>
+<hr style="border: 0; height: 1px; background-image: linear-gradient(to right, rgba(0, 0, 0, 0), #fff, rgba(0, 0, 0, 0));">
+
 # Information About The Bot Service 🛡
 - [+] **The Configs are most `undetectable`, but we prefer to use an `alt`**
 - [+] **Easy to use and `no cooldown`**
