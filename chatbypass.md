@@ -35,7 +35,8 @@
 <hr style="border: 0; height: 1px; background-image: linear-gradient(to right, rgba(0, 0, 0, 0), #fff, rgba(0, 0, 0, 0));">
 
 # How to use it?
-- [+] **2) DM the bot and type `$cmd` for information** 
+- [+] **2) DM the bot and type `$cmd` for information**
+
 <br>
 <hr style="border: 0; height: 1px; background-image: linear-gradient(to right, rgba(0, 0, 0, 0), #fff, rgba(0, 0, 0, 0));">
 
