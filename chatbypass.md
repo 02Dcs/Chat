@@ -10,9 +10,9 @@
   W&nbsp;Server!
 </a>
 
-<br>
+<br> <!-- Add a line break here -->
 
-- [+] **Bypasses `all words`** 
+- [+] **Bypasses `all words`**  <!-- The [+] part will appear below this line -->
 - [+] **Apply your own chat `bypass configuration`**
 - [+] **Daily bot `updates and improvements`**
 
