@@ -10,9 +10,10 @@
   W&nbsp;Server!
 </a>
 
-<br> <!-- Add a line break here -->
+<br>
+<hr style="border: 0; height: 1px; background-image: linear-gradient(to right, rgba(0, 0, 0, 0), #fff, rgba(0, 0, 0, 0));">
 
-- [+] **Bypasses `all words`**  <!-- The [+] part will appear below this line -->
+- [+] **Bypasses `all words`** 
 - [+] **Apply your own chat `bypass configuration`**
 - [+] **Daily bot `updates and improvements`**
 
@@ -35,6 +36,7 @@
 
 # How to use it?
 - [+] **2) DM the bot and type `$cmd` for information**
+
 - 
 <br>
 <hr style="border: 0; height: 1px; background-image: linear-gradient(to right, rgba(0, 0, 0, 0), #fff, rgba(0, 0, 0, 0));">
@@ -55,4 +57,8 @@
 
 ![sdasdadsadasasddas](https://github.com/02Dcs/Chat/assets/95237577/bdf878d3-8475-42e2-908a-12a58757be4f)<br>
 ![dasdsasdasaddsaasd](https://github.com/02Dcs/Chat/assets/95237577/dcaeb8e8-f7b9-400f-a3ff-06abb065bd2e)
+
+<br>
+<hr style="border: 0; height: 1px; background-image: linear-gradient(to right, rgba(0, 0, 0, 0), #fff, rgba(0, 0, 0, 0));">
+
 
