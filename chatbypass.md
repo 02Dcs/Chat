@@ -8,9 +8,9 @@
 ![dasdsadsadsadsadsa](https://github.com/02Dcs/Chat/assets/95237577/bd496c07-20f6-4848-bb97-12f12eb06bf6)
 
 # Information About The Bot Service 🛡
-- [+] **The Configs are most undetectable**
-- [+] **Easy to use and no cooldown**
-- [+] **The bot is not online all the time**
+- [+] **The Configs are most `undetectable`**
+- [+] **Easy to use and `no cooldown`**
+- [+] **The bot is `not online` all the time**
 - [+] **It's not paid, and it will remain `free`**
 
 # How to use it?
